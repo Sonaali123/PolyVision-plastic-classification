@@ -16,8 +16,13 @@ async def ping():
  return "Hello! "
 
 def read_file_as_image(data) -> np.ndarray:
- image = np.array(Image.open(BytesIO(data)))
- return image
+    try:
+        image = np.array(Image.open(BytesIO(data)))
+        return image
+    except Exception as e:
+        print(f"Error reading image: {e}")
+        raise ValueError("Invalid image file")
+
 
 @app.post("/predict")
 async def predict(
