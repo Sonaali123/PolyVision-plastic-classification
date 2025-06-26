@@ -1,6 +1,7 @@
-NUS Project under Prof. Tan Wee Kek.
+PolyVision – Plastic Waste Classification Using AI
+National University of Singapore
+Under the guidance of Prof. Tan Wee Kek
 
-An AI tool that helps to classify the different types of plastics wastes - HDPE, LDPE, PVC etc. through image recognition. 
-This approach helps in easier waste management and recycling.
+This project presents an AI-powered image classification tool designed to automatically identify different types of plastic waste — such as HDPE, LDPE, PVC, and more — from visual input. By leveraging computer vision and deep learning techniques, the tool aims to facilitate efficient waste sorting, enabling smarter recycling and waste management systems.
 
-Built by a Team of 4 students.
+Developed as part of a collaborative student project at NUS, this solution contributes toward sustainable environmental practices using AI.
